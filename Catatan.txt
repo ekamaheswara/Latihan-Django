@@ -1,0 +1,39 @@
+Cara mengubah powershell.exe menjadi cmd.exe
+Tekan Ctrl+Shift+P untuk melihat semua command.
+Ketik shell pada text list.
+Pilih Terminal: Select Default Shell
+Pilih cmd.exe
+==============================================================
+
+cara menggunakan cmd :
+
+# Untuk melihat versi python
+python --version
+pip list
+
+# Cara upgrade pip
+python -m pip install --upgrade pip
+
+# Membuat virtal environment
+python -m venv Env
+
+# Mengaktifkan virtal environment
+Env\Scripts\activate.bat
+
+# Menginstall django
+pip install Django==1.11.*
+
+Keterangan :
+1 = major
+11 = minor
+* = revisi
+
+
+# Membuat project django
+django-admin startproject mywebsite
+cd mywebsite
+
+
+# Untuk menjalankan servernya
+manage.py runserver
+python manage.py runserver
