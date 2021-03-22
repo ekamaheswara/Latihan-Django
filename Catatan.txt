@@ -38,5 +38,8 @@ cd mywebsite
 manage.py runserver
 python manage.py runserver
 
+# Membuat app
+python manage.py startapp blog
 
-test
+# Menambahkan file baru ke dalam Git
+git add .
