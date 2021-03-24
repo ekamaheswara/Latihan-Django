@@ -11,8 +11,14 @@
     <p>{{paragraf}}</p>
 
     <ul>
-        <li><a href="/about" title="">about</a></li>
-        <li><a href="/blog" title="">blog</a></li>
+<!-- Template tags -->
+        {% for href,name in nav%}
+<li>
+    <a href="{{href}}">{{name}}</a>
+</li>
+
+        {% endfor %}
+
     </ul>
 </body>
 </html>
